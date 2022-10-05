@@ -15,8 +15,8 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="vh-100">
+    <div class="">
+      <div style="height: 90vh" class="mb-5">
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
           <div class="container-fluid">
             <a class="navbar-brand" href="">John Doe</a>
@@ -54,59 +54,64 @@
             </div>
           </div>
         </nav>
-        <div
-          class="container-fluid Headline bg-dark d-flex flex-row-reverse h-100 align-items-center pt-5"
-        >
-          <div class="infos text-white ms-5">
-            <h2 class="title text-warning display-1">
-              Hey there. <br />I'm Alex
-            </h2>
-            <h4 class="sub-title">I'am a software Developer</h4>
-            <p class="w-50">
-              I can help you build a product , feature or website Look through
-              some of my work and experience! If you like what you see and have
-              a project you need coded, don’t hestiate to contact me.
-            </p>
-          </div>
-          <div class="socials">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item border-0 bg-dark">
-                <a href=""><img src="./assets/github.png" alt="github" /></a>
-              </li>
-              <li class="list-group-item border-0 bg-dark">
-                <a href="">
-                  <img src="./assets/linkedin.png" alt="linkedin"
-                /></a>
-              </li>
-              <li class="list-group-item border-0 bg-dark">
-                <a href=""><img src="./assets//Vector.png" alt="vector1" /></a>
-              </li>
-              <li class="list-group-item border-0 bg-dark">
-                <a href=""><img src="./assets//twitter.png" alt="twitter" /></a>
-              </li>
-              <li class="list-group-item border-0 bg-dark">
-                <a href=""
-                  ><img src="./assets//Vector2.png " alt="vector2"
-                /></a>
-              </li>
-            </ul>
+        <div class="Headline bg-dark h-100 row">
+          <div
+            class="col-md-8 d-md-flex flex-row-reverse align-items-center py-5"
+          >
+            <div class="infos text-white ms-md-5 ms-3">
+              <h2 class="title text-warning display-1">
+                Hey there. <br />I'm Alex
+              </h2>
+              <h4 class="sub-title">I'am a software Developer</h4>
+              <p class="">
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don’t hestiate to contact me.
+              </p>
+            </div>
+            <div class="socials">
+              <ul class="llist-unstyled d-flex flex-md-column flex-wrap gap-3">
+                <li class="list-group-item">
+                  <a href=""><img src="./assets/github.png" alt="github" /></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="">
+                    <img src="./assets/linkedin.png" alt="linkedin"
+                  /></a>
+                </li>
+                <li class="list-group-item">
+                  <a href=""
+                    ><img src="./assets//Vector.png" alt="vector1"
+                  /></a>
+                </li>
+                <li class="list-group-item">
+                  <a href=""
+                    ><img src="./assets//twitter.png" alt="twitter"
+                  /></a>
+                </li>
+                <li class="list-group-item">
+                  <a href=""
+                    ><img src="./assets//Vector2.png " alt="vector2"
+                  /></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid mt-5">
-        <div class="">
-          <h2 class="float-left">My Recent Works</h2>
-          <hr />
+      <div class="container-fluid py-5">
+        <div class="row">
+          <h2 class="col-md-4">My Recent Works</h2>
+          <hr class="col-md-8" />
         </div>
         <div class="work-container">
           <div class="">
-            <div class="hero-work d-flex">
-              <img
-                src="./assets//hero-work.png"
-                alt="hero"
-                class="float-left pe-4 w-100"
-              />
-              <div class="flex-shrink-1 w-75">
+            <div class="hero-work d-md-flex">
+              <div class="pe-4">
+                <img src="./assets//hero-work.png" alt="hero" />
+              </div>
+
+              <div class="flex-shrink-1">
                 <h2>Multi-Post Stories</h2>
                 <p>
                   A daily selection of privately personalized reads; no accounts
@@ -131,9 +136,9 @@
                 <button class="bg-warning">See Project</button>
               </div>
             </div>
-            <div class="row flex-wrap mt-5">
-              <div class="col-md-4 card">
-                <div class="work-card">
+            <div class="row flex-wrap mt-5 m-auto">
+              <div class="col-md-4 mb-2">
+                <div class="card p-1 bg-secondary text-white">
                   <div class="title">Profesional Art Printing Data</div>
                   <p>
                     A daily selection of privately personalized reads; no
@@ -142,23 +147,33 @@
                   </p>
                   <ul class="list-unstyled d-flex flex-wrap">
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">html</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        html
+                      </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
                         bootstrap
                       </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">Ruby</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        Ruby
+                      </div>
                     </li>
                   </ul>
                   <button class="bg-warning w-100">See Project</button>
                 </div>
               </div>
 
-              <div class="col-md-4 card">
-                <div class="work-card">
+              <div class="col-md-4 mb-2">
+                <div class="card p-1 bg-secondary text-white">
                   <div class="title">Profesional Art Printing Data</div>
                   <p>
                     A daily selection of privately personalized reads; no
@@ -167,22 +182,32 @@
                   </p>
                   <ul class="list-unstyled d-flex flex-wrap">
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">html</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        html
+                      </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
                         bootstrap
                       </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">Ruby</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        Ruby
+                      </div>
                     </li>
                   </ul>
                   <button class="bg-warning w-100">See Project</button>
                 </div>
               </div>
-              <div class="col-md-4 card">
-                <div class="work-card">
+              <div class="col-md-4 mb-2">
+                <div class="card p-1 bg-secondary text-white">
                   <div class="title">Profesional Art Printing Data</div>
                   <p>
                     A daily selection of privately personalized reads; no
@@ -191,22 +216,32 @@
                   </p>
                   <ul class="list-unstyled d-flex flex-wrap">
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">html</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        html
+                      </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
                         bootstrap
                       </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">Ruby</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        Ruby
+                      </div>
                     </li>
                   </ul>
                   <button class="bg-warning w-100">See Project</button>
                 </div>
               </div>
-              <div class="col-md-4 card">
-                <div class="work-card">
+              <div class="col-md-4 mb-2">
+                <div class="card p-1 bg-secondary text-white">
                   <div class="title">Profesional Art Printing Data</div>
                   <p>
                     A daily selection of privately personalized reads; no
@@ -215,22 +250,32 @@
                   </p>
                   <ul class="list-unstyled d-flex flex-wrap">
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">html</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        html
+                      </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
                         bootstrap
                       </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">Ruby</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        Ruby
+                      </div>
                     </li>
                   </ul>
                   <button class="bg-warning w-100">See Project</button>
                 </div>
               </div>
-              <div class="col-md-4 card">
-                <div class="work-card">
+              <div class="col-md-4 mb-2">
+                <div class="card p-1 bg-secondary text-white">
                   <div class="title">Profesional Art Printing Data</div>
                   <p>
                     A daily selection of privately personalized reads; no
@@ -239,22 +284,32 @@
                   </p>
                   <ul class="list-unstyled d-flex flex-wrap">
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">html</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        html
+                      </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
                         bootstrap
                       </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">Ruby</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        Ruby
+                      </div>
                     </li>
                   </ul>
                   <button class="bg-warning w-100">See Project</button>
                 </div>
               </div>
-              <div class="col-md-4 card">
-                <div class="work-card">
+              <div class="col-md-4 mb-2">
+                <div class="card p-1 bg-secondary text-white">
                   <div class="title">Profesional Art Printing Data</div>
                   <p>
                     A daily selection of privately personalized reads; no
@@ -263,15 +318,25 @@
                   </p>
                   <ul class="list-unstyled d-flex flex-wrap">
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">html</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        html
+                      </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
                         bootstrap
                       </div>
                     </li>
                     <li class="list-group-item border-0 me-3">
-                      <div class="work-cart btn btn-outline-dark">Ruby</div>
+                      <div
+                        class="work-cart btn btn-outline-dark text-white border-white"
+                      >
+                        Ruby
+                      </div>
                     </li>
                   </ul>
                   <button class="bg-warning w-100">See Project</button>
@@ -282,12 +347,12 @@
         </div>
       </div>
       <div
-        class="about container-fluid bg-dark text-white vh-100 ps-5 d-flex flex-column justify-content-center"
+        class="about container-fluid bg-dark text-white ps-5 py-5 d-flex flex-column justify-content-center"
       >
-        <div class="top mb-5 d-flex">
-          <div>
+        <div class="top mb-5 row">
+          <div class="col-md-6">
             <h2 class="text-warning display-1">About me</h2>
-            <p class="w-50">
+            <p>
               Hello I’m a software developer! I can help you build a product ,
               feature or website Look through some of my work and experience! If
               you like what you see and have a project you need coded, don’t
@@ -295,14 +360,14 @@
             </p>
             <button class="bg-warning">Get My Resume</button>
           </div>
-          <div class="w-50">
+          <div class="col-md-6">
             <img src="./assets/aboutBackground.png" alt="aboutbackgroundimg" />
           </div>
         </div>
         <hr />
         <div class="bottom mt-5">
-          <ul class="list-unstyled d-flex justify-content-between">
-            <li class="text-center">
+          <ul class="list-unstyled row d-flex">
+            <li class="text-center col-md-4 mt-5">
               <div class="language mb-2">
                 <img src="./assets/losange.png" />
                 Language
@@ -314,7 +379,7 @@
                 <li>Css</li>
               </ul>
             </li>
-            <li class="text-center">
+            <li class="text-center col-md-4 mt-5">
               <div class="frameworks mb-2">
                 <img src="./assets/Rectangle.png" />Frameworks
               </div>
@@ -326,7 +391,7 @@
                 <li>Selenium</li>
               </ul>
             </li>
-            <li class="text-center">
+            <li class="text-center col-md-4 mt-5">
               <div class="skills mb-2">
                 <img src="./assets/cicle.png" />Skills
               </div>
@@ -349,45 +414,56 @@
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </h2>
-          </div> 
+          </div>
           <div class="col-md-8">
-            <form action="https://formspree.io/f/mrgdqvqo" method="POST" class="d-block">
+            <form
+              action="https://formspree.io/f/mrgdqvqo"
+              method="POST"
+              class="d-block"
+            >
               <div class="w-100">
                 <input
-                type="text"
-                id="name"
-                placeholder="Full name"
-                name="user_name"
-                maxlength="30" class="w-100 mb-3 border-0 border-bottom p-1"
-                required
-              />
+                  type="text"
+                  id="name"
+                  placeholder="Full name"
+                  name="user_name"
+                  maxlength="30"
+                  class="w-100 mb-3 border-0 border-bottom p-1"
+                  required
+                />
               </div>
               <div class="w-100">
                 <input
-                type="email"
-                id="mail"
-                placeholder="Email address"
-                name="user_email" class="w-100 mb-3 border-0 border-bottom p-1"
-                required
-              />
+                  type="email"
+                  id="mail"
+                  placeholder="Email address"
+                  name="user_email"
+                  class="w-100 mb-3 border-0 border-bottom p-1"
+                  required
+                />
               </div>
               <div class="w-100">
                 <textarea
-                name="user_message"
-                id="msg"
-                placeholder="Enter text here"
-                maxlength="500" class="w-100 mb-3 p-3"
-                required
-              ></textarea>
+                  name="user_message"
+                  id="msg"
+                  placeholder="Enter text here"
+                  maxlength="500"
+                  class="w-100 mb-3 p-3"
+                  required
+                ></textarea>
               </div>
-              
-              <button type="submit" class="bg-warning" id="btn-submit">Get in touch</button>
+
+              <button type="submit" class="bg-warning" id="btn-submit">
+                Get in touch
+              </button>
             </form>
           </div>
         </div>
         <hr />
         <div class="contact-icons">
-          <ul class="contact-icons-container list-unstyled d-flex flex-wrap justify-content-center">
+          <ul
+            class="contact-icons-container list-unstyled d-flex flex-wrap justify-content-center"
+          >
             <li class="list-group-item border-0 me-3">
               <a href=""><img src="./assets/git2.png" alt="github" /></a>
             </li>
